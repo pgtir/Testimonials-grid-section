@@ -1,0 +1,97 @@
+*, ::after,::before{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 0px 28px 25px 28px;
+    border-radius: 15px;
+}
+
+.card-1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+}
+
+.card-2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.card-3, .card-5 {
+    background-color: white;
+}
+
+.card-4 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.card-body .card-head {
+    display: flex;
+    align-items: center;
+    color: hsl(0, 0%, 81%);
+    margin-bottom: 0px;
+}
+
+.card-head img {
+     border: 2px solid white;
+     border-radius: 50%;
+     /* overflow: hidden; */
+     width: 38px;
+     height: 38px;
+}
+
+.card-4 img {
+    border-color: hsl(263, 55%, 52%);
+}
+
+.card-head .user-detail {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.card-head .name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.qualification {
+    opacity: 50%;
+}
+
+.card-title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: white;
+    opacity: 70%;
+    line-height: 1.5;
+}
+
+.card-3 .card-head,.card-3 .card-title,.card-3 .card-text,.card-5 .card-head,.card-5 .card-title,.card-5 .card-text {
+      
+    color: hsl(219, 29%, 14%);  
+
+}
+
+.card {
+    height: 100%;
+}
+ 
+ 
+ 
